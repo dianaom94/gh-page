@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function protegeruta(){
             
             pathName = loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
             
-        window.location.href= `${pathName}/index.html`;
+        window.location.href= `${pathName}index.html`;
     }
     
 }, false);

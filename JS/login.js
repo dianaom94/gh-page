@@ -16,7 +16,7 @@ const pass = "pass123";
             
             pathName = loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
             
-            window.location.href= `${pathName}plataforma.html?user=${user}&pass=${pass}`;
+            window.location.href= `${pathName}Plataforma.html?user=${user}&pass=${pass}`;
         }
         
     }

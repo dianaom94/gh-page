@@ -88,16 +88,6 @@ html, body {
 }
 
 
-    .fondo, .fondo1{
-        display: none !important;
-    
-    
-    }
-
-    .fondo-tip, .fondo-tip2, .fondo-tip3, .fondo-tip3-1, .fondo-tip4, .fondo-tip4-1{
-        display: none !important;
-    }
-
     .pedagogo-container{
         display: flex !important;
         flex-direction: column-reverse !important;
@@ -113,6 +103,9 @@ html, body {
         margin-top: 50px !important;
     }
 
+    .fondo .fondo1{
+       display: none !important;
+    }
     .elliotimg{
         width: 90% !important;
         height: 220px !important;
@@ -147,6 +140,7 @@ html, body {
         top: 0 !important;
         left: 0px !important;
         border: solid rgb(8, 6, 51) 2px;
+        box-shadow: ;
     }
     .fondo-doc{
      display: none !important;
@@ -229,7 +223,7 @@ html, body {
     }
 }
 
-@media only screen and (min-device-width : 490px) and (max-device-width : 800px){
+@media only screen and (min-device-width : 490px) and (max-device-width : 1200px){
     .headercont, .main-container, .menu-container, .menu-box{
         display: none !important;
     
@@ -356,6 +350,7 @@ html, body {
     .foto1{
         width: 40% !important;
         height: 230px !important;
+        ;
     }
 
     .foto2{
@@ -614,16 +609,17 @@ html, body {
     position:absolute;
     right: 50%;
     border: solid rgb(8, 6, 51) 2px;
+    box-shadow: -20px -20px 0 -5px rgb(114, 207, 250);
 }
 
-.fondo-doc{
+/* .fondo-doc{
     position: absolute;
     background:linear-gradient(to top right, #173268 40%, #00ffff 95%);
     width: 30%;
     height: 230px;
-    left: 45%;
-    top: 168%;
-}
+    left:  45%;
+    top: 188%;
+} */
 
 .galeria .foto2{
     width: 30%;
@@ -632,6 +628,7 @@ html, body {
     top: 50px;
     left: 100px;
     border: solid rgb(8, 6, 51) 2px;
+    box-shadow: 20px 20px 0 -5px rgb(41, 74, 221);
 }
 
 .pedagogo-container{
@@ -660,7 +657,8 @@ html, body {
     align-items: center;
     margin-top: 20%;
     background-color: #173268;
-    z-index: -1000;
+    z-index: 0;
+
 }
 
 .tips-container .titulo-tips{
@@ -684,6 +682,7 @@ html, body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    z-index: 0;
 }
 
 .tips-galeria .grupo1{
@@ -698,9 +697,10 @@ html, body {
     position: absolute;
     height: 70%;
     width: 32%;
-    top: 353%;
+    top: 370%;
     right:60%;
     transform: rotate(-135deg);
+    z-index: -1;
     
 }
 
@@ -710,10 +710,10 @@ html, body {
     position: absolute;
     height: 70%;
     width: 32%;
-    top: 314%;
+    top: 330%;
     left:59%;
     transform: rotate(-135deg);
-
+    z-index: -1;
 
 }
 
@@ -721,10 +721,11 @@ html, body {
 .img1-tip{
     display: flex;
     width: 40%;
-    margin-top: 235px;
+    margin-top: 230px;
     left: 4%;
     position: relative;
-    border: solid #00ccff 0.1px;
+    border-radius: 20px;
+    border: solid #0059ff;
     
 }
 
@@ -734,7 +735,8 @@ html, body {
     height: 400px;
     left: 15%;
     position: relative;
-    border: solid #2600ff 0.1px;
+    border-radius: 20px;
+    border: solid #00ffff;
 }
 
 
@@ -747,51 +749,7 @@ html, body {
     
 }
 
-.fondo-tip3{
-    background:linear-gradient(to top right, #0077ff 30%, #00ffff 65%);
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    top: 468%;
-    left:56%;
 
-}
-
-.fondo-tip3-1{
-    background:linear-gradient(to top left, #0077ff 30%, #00ffff 65%);
-    position: absolute;
-    height: 40%;
-    width: 20%;
-    top: 540%;
-    left:70%;
-    
-
-
-}
-
-.fondo-tip4{
-    background:linear-gradient(to top right, #0077ff 30%, #00ffff 65%);
-    position: absolute;
-    height: 40%;
-    width: 20%;
-    top: 540%;
-    left:10%;
-    
-
-
-}
-
-.fondo-tip4-1{
-    background:linear-gradient(to top left, #0077ff 30%, #00ffff 65%);
-    position: absolute;
-    height: 20%;
-    width: 20%;
-    top: 468%;
-    left:24%;
-    
-
-
-}
 
 .tips-galeria .grupo2 .img3-tip, .img4-tip{
     width: 30%;
@@ -802,6 +760,8 @@ html, body {
     position: relative;
     z-index: 1;
 }
+
+
 
 .wave{
     margin-top: -2px;    
@@ -815,6 +775,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    
 }
 
 

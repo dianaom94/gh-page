@@ -98,6 +98,7 @@ html, body {
     .img-box .img-menu{
         top: 0 !important;
         width: 100%;
+        height: 300px !important;
         margin-top: 0 !important;
     }
     .titulo-container{
@@ -300,6 +301,7 @@ html, body {
         left: 0 !important;
         padding: 0 !important;
         margin-top: 10px !important;
+        box-shadow: none !important;
     }
 
     .facultades-parrafo1, .titulo1{
@@ -349,7 +351,7 @@ html, body {
         margin: 0 !important;
         left: 0 !important;
         margin-top: 10px !important;
-        
+        box-shadow: none !important;
         
         
     }
@@ -360,6 +362,7 @@ html, body {
         top: 50% !important;
         margin-top: 10px !important;
         margin-bottom: 10% !important;
+        box-shadow: none !important;
     }
 
     .img-formulario{
@@ -495,13 +498,14 @@ html, body {
 
     .eventos-container{
         width: 100%;
+        background-color: #173268 !important;
     }
 
     .img-box .img-menu{
         margin-top: 0% !important;
         width: 100%;
     }
-
+    
     .titulo-eventos{
         justify-content: center !important;
         text-align: center !important;
@@ -629,6 +633,8 @@ html, body {
         display: flex !important;
         flex-direction: column !important;
         width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
 
     .box{
@@ -715,8 +721,10 @@ html, body {
         margin: 0 !important;
         left: 0 !important;
         padding: 0 !important;
-        margin-top: 10px !important;
+        margin-top: 20px !important;
         height: 500px !important;
+        box-shadow: none !important;
+        
     }
 
     .facultad1-img1{
@@ -724,9 +732,12 @@ html, body {
         margin: 0 !important;
         left: 0 !important;
         padding: 0 !important;
-        margin-top: 10px !important;
+        margin-top: 140px !important;
         height: 500px !important;
-
+        box-shadow: none !important;
+        
+        
+        
     }
 
     .facultades-parrafo1, .titulo1{
@@ -777,6 +788,7 @@ html, body {
         flex-direction: column;
         left: 0 !important;
         margin-top: 10px !important;
+        box-shadow: none !important;
     }
 
     .facultad2-img2{
@@ -784,6 +796,7 @@ html, body {
         margin: 0 !important;
         left: 0 !important;
         margin-top: 10px !important;
+        box-shadow: none !important;
         
         
     }
@@ -794,6 +807,7 @@ html, body {
         top: 50% !important;
         margin-top: 10px !important;
         margin-bottom: 10% !important;
+        box-shadow: none !important;
     }
 
     .img-formulario{
@@ -802,7 +816,7 @@ html, body {
 
     .form-container{
         width: 100% !important;
-        margin-top: 50% !important;
+        margin-top: 80% !important;
     }
 
     .Container, .box-formulario, .form-box {
@@ -854,6 +868,13 @@ html, body {
         text-align: center !important;
        
         margin-right: 15px !important;
+    }
+}
+
+@media only screen and (max-device-width : 1200px){
+    .fondo1, .fondo2{
+        display: none !important;
+
     }
 }
 
@@ -1281,7 +1302,7 @@ button{
 }
 
 .contenedor-programas{
-    margin-top: 10%;
+    
     background-color: #173268;
     padding-bottom: 10%;
     padding-top: 10%;
@@ -1658,7 +1679,7 @@ button{
     width: 70%;
     height: 260px;
     border: solid rgb(8, 6, 51) 2px;
-    /* box-shadow:#173268 -20px -20px 0px 5px; */
+    box-shadow:  -15px -15px 0 1px rgb(27, 12, 112);
 }
 .facultades-box .facultades-imagenes .facultad1-img1{
     position: relative;
@@ -1667,7 +1688,8 @@ button{
     width: 55%;
     height: 440px;
     border: solid rgb(8, 6, 51) 2px;
-    /* box-shadow:#173268 20px 20px 0px 10px; */
+    box-shadow:  15px 15px 0 1px rgb(55, 215, 255);
+
 
 }
 .fondo1{
@@ -1723,7 +1745,7 @@ button{
     height: 250px;
     z-index: -2;
     left: 46%;
-    top: 615%;
+    top: 619%;
 }
 .facultades-container .facultades-box2 .facultades-imagenes2{
     width: 50%;
@@ -1737,7 +1759,7 @@ button{
     height: 45%;
     margin-top: 10%;
     margin-left: -20%;
-    border: solid rgb(8, 6, 51) 2px;
+    box-shadow:  15px -15px 0 1px rgb(55, 215, 255);
     
     
 }
@@ -1750,7 +1772,7 @@ button{
     position: relative;
     top: 40%;
     left: 2%;
-    border: solid rgb(8, 6, 51) 2px;
+    box-shadow:  -15px 15px 0 1px rgb(27, 12, 112);
    
     
 }
